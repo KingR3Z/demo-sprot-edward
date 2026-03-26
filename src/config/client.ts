@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Jackie Baker", rating: 5, text: "Just had Sprot Edward finish our garden project in Winchester. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "2 years ago" },
+    { name: "Luke Thomas", rating: 5, text: "Sprot Edward recently completed a major landscaping project for us and the quality is exceptional. The team worked through some challenging weather but still delivered on time. Genuinely thrilled with the outcome.", date: "3 months ago" },
+    { name: "Emma B.", rating: 5, text: "Had a wonderful experience with Sprot Edward. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "8 months ago" },
+    { name: "Oliver Wright", rating: 5, text: "Cannot recommend Sprot Edward highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "2 years ago" },
+    { name: "Scott Thompson", rating: 5, text: "We found Sprot Edward online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "a year ago" },
+    { name: "Anna Hall", rating: 5, text: "Hired Sprot Edward for a full garden redesign and the results speak for themselves. The team worked hard, kept us informed throughout, and left the site spotless each day. It's like having a brand new garden. Highly recommend to anyone in Winchester.", date: "3 years ago" },
+    { name: "Joe D.", rating: 5, text: "We had Sprot Edward come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, every plant placem...", date: "6 months ago" },
+    { name: "Hannah H.", rating: 5, text: "From start to finish, working with Sprot Edward was a pleasure. They arrived when they said they would, worked efficiently, and the end result is stunning. Several friends have commented on how good the garden looks now.", date: "6 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
